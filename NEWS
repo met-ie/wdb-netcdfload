@@ -1,0 +1,8 @@
+wdb-netcdfload (0.13.16) centos 7; urgency=low
+
+  * Updated to build against libpqxx-5.0.1
+
+ -- Conor Daly <conor.daly@met.ie>  Wed, 10 Jun 2020 15:06:00
+
+
+

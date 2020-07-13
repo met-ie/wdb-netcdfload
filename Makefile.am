@@ -20,7 +20,7 @@ EXTRA_DIST =
 # This is to be replaced by a "find wdb" macro:
 AM_CXXFLAGS =			-DSYSCONFDIR=\"$(pkgsysconfdir)\" -I$(top_srcdir)/src $(wdb_CFLAGS) $(fimex_CFLAGS) -I/usr/include/libxml2
 netcdfLoad_LDADD = $(wdb_LIBS) $(fimex_LIBS) \
-                      -llog4cpp -lboost_date_time -lboost_filesystem -lboost_regex -lboost_program_options -lboost_system -lfimex -lxml2 -lwdbLoad -lwdbConfig -lwdbProj -lwdbExcept -lwdbLog -lwdbMath -lproj
+                      -llog4cpp -lboost_date_time -lboost_filesystem -lboost_regex -lboost_program_options -lboost_system -lfimex -lxml2 -lwdbLoad -lwdbConfig -lwdbProj -lwdbExcept -lwdbLog -lwdbMath -lproj -lpqxx -lpq
 
 include src/netcdfLoad.mk
 include test/netcdfLoad.mk
