@@ -7,7 +7,6 @@ AC_INIT(netcdfLoad, 0.13.16, [wdb@met.no])
 AC_CONFIG_SRCDIR([src/localtime.h])
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_MACRO_DIR([config/m4])
-AM_PROG_AR
 AC_PROG_RANLIB
 
 # Checks for programs.
@@ -17,6 +16,8 @@ AC_PROG_CPP
 AC_PROG_INSTALL
 AC_PROG_MAKE_SET
 AC_PROG_LN_S
+
+AM_PROG_AR
 
 AX_BOOST_BASE(1.40.0)
 AX_BOOST_PROGRAM_OPTIONS
